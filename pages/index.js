@@ -13,7 +13,7 @@ import Layout from '../components/Layout'
 export default function Home() {
 	return (
 		<Layout>
-			<div className='bg-gray-700 flex h-screen font-primary'>
+			<div className='flex h-screen font-primary bg-gray-700'>
 				<div className='m-auto'>
 					<div className='grid xl:grid-cols-2 grid-cols-1 px-8'>
 						<div className='0'>
@@ -26,7 +26,7 @@ export default function Home() {
 							/>
 						</div>
 						<div className='text-gray-400  xl:text-left text-center pt-8 xl:pt-0 ml-0 xl:ml-8'>
-							<h1 className='text-3xl xl:text-4xl text-green-300'>
+							<h1 className='text-3xl xl:text-4xl text-green-300 font-black'>
 								Brian Shimkus
 							</h1>
 							<h2 className='text-xl xl:text-2xl py-4 text-blue-200'>
