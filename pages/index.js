@@ -34,7 +34,7 @@ export default function Home() {
 							</h2>
 							<div className='text-3xl flex space-x-5 xl:justify-start justify-center'>
 								<div className='has-tooltip'>
-									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+									<span className='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
 										Instagram
 									</span>
 									<Link href='https://www.instagram.com/brianshimkus.me/'>
@@ -48,7 +48,7 @@ export default function Home() {
 									</Link>
 								</div>
 								<div className='has-tooltip'>
-									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+									<span className='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
 										GitHub
 									</span>
 									<Link href='https://github.com/brianshimkus'>
@@ -62,7 +62,7 @@ export default function Home() {
 									</Link>
 								</div>
 								<div className='has-tooltip'>
-									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+									<span className='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
 										LinkedIn
 									</span>
 									<Link href='https://www.linkedin.com/in/brianshimkus1/'>
@@ -76,7 +76,7 @@ export default function Home() {
 									</Link>
 								</div>
 								<div className='has-tooltip'>
-									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+									<span className='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
 										My Resume
 									</span>
 									<Link href='https://drive.google.com/file/d/1GvkcStF_UoTrFL5A2Z-AHIqXnFQG_D1P/view'>
@@ -90,7 +90,7 @@ export default function Home() {
 									</Link>
 								</div>
 								<div className='has-tooltip'>
-									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+									<span className='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
 										Email Me
 									</span>
 									<Link href='mailto:brianshimkus1@gmail.com'>
