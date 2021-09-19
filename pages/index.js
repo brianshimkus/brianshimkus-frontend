@@ -29,11 +29,14 @@ export default function Home() {
 							<h1 className='text-3xl xl:text-4xl text-green-300'>
 								Brian Shimkus
 							</h1>
-							<h2 className='text-xl xl:text-2xl py-3 text-blue-200'>
+							<h2 className='text-xl xl:text-2xl py-4 text-blue-200'>
 								Entrepreneur • Musician • Software Engineer
 							</h2>
 							<div className='text-3xl flex space-x-5 xl:justify-start justify-center'>
-								<div>
+								<div className='has-tooltip'>
+									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+										Instagram
+									</span>
 									<Link href='https://www.instagram.com/brianshimkus.me/'>
 										<a target='_blank'>
 											<FontAwesomeIcon
@@ -44,7 +47,10 @@ export default function Home() {
 										</a>
 									</Link>
 								</div>
-								<div>
+								<div className='has-tooltip'>
+									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+										GitHub
+									</span>
 									<Link href='https://github.com/brianshimkus'>
 										<a target='_blank'>
 											<FontAwesomeIcon
@@ -55,7 +61,10 @@ export default function Home() {
 										</a>
 									</Link>
 								</div>
-								<div>
+								<div className='has-tooltip'>
+									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+										LinkedIn
+									</span>
 									<Link href='https://www.linkedin.com/in/brianshimkus1/'>
 										<a target='_blank'>
 											<FontAwesomeIcon
@@ -66,7 +75,10 @@ export default function Home() {
 										</a>
 									</Link>
 								</div>
-								<div>
+								<div className='has-tooltip'>
+									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+										My Resume
+									</span>
 									<Link href='https://drive.google.com/file/d/1GvkcStF_UoTrFL5A2Z-AHIqXnFQG_D1P/view'>
 										<a target='_blank'>
 											<FontAwesomeIcon
@@ -77,7 +89,10 @@ export default function Home() {
 										</a>
 									</Link>
 								</div>
-								<div>
+								<div className='has-tooltip'>
+									<span class='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+										Email Me
+									</span>
 									<Link href='mailto:brianshimkus1@gmail.com'>
 										<a target='_blank'>
 											<FontAwesomeIcon
