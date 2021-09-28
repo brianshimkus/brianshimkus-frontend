@@ -13,7 +13,7 @@ import Layout from '../components/Layout'
 export default function Home() {
 	return (
 		<Layout>
-			<div className='flex h-screen font-primary bg-gray-700'>
+			<div className='flex h-screen font-primary'>
 				<div className='m-auto'>
 					<div className='grid xl:grid-cols-2 grid-cols-1 px-8'>
 						<div className='0'>
