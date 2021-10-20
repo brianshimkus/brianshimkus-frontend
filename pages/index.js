@@ -7,7 +7,14 @@ import {
 	faInstagram,
 	faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faList } from '@fortawesome/free-solid-svg-icons'
+import {
+	faBrain,
+	faEnvelope,
+	faGuitar,
+	faLaptopCode,
+	faLightbulb,
+	faList,
+} from '@fortawesome/free-solid-svg-icons'
 import Layout from '../components/Layout'
 
 export default function Home() {
@@ -26,13 +33,46 @@ export default function Home() {
 							/>
 						</div>
 						<div className='text-gray-400  xl:text-left text-center pt-8 xl:pt-0 ml-0 xl:ml-8'>
-							<h1 className='text-3xl xl:text-4xl text-green-300 font-black'>
+							<h1 className='text-3xl xl:text-4xl text-green-300 font-black pb-4'>
 								Brian Shimkus
 							</h1>
-							<h2 className='text-xl xl:text-2xl py-4 text-blue-200'>
-								Entrepreneur • Musician • Software Engineer
-							</h2>
-							<div className='text-3xl flex space-x-5 xl:justify-start justify-center'>
+							<hr />
+							<ul className='text-xl xl:text-2xl py-4 text-blue-200'>
+								<li className='pb-2'>
+									<FontAwesomeIcon
+										icon={faLightbulb}
+										alt='Light Bulb'
+										className='text-yellow-100'
+									/>
+									<span className='md:pl-6 pl-2'>Entrepreneur</span>
+								</li>
+								<li className='pb-2'>
+									<FontAwesomeIcon
+										icon={faBrain}
+										alt='Light Bulb'
+										className='text-red-200'
+									/>
+									<span className='md:pl-3 pl-2'>Mental Health Advocate</span>
+								</li>
+								<li className='pb-2'>
+									<FontAwesomeIcon
+										icon={faGuitar}
+										alt='Light Bulb'
+										className='text-yellow-500'
+									/>
+									<span className='md:pl-4 pl-2'>Musician</span>
+								</li>
+								<li className='pb-2'>
+									<FontAwesomeIcon
+										icon={faLaptopCode}
+										alt='Light Bulb'
+										className='text-gray-200'
+									/>
+									<span className='md:pl-3 pl-2'>Software Engineer</span>
+								</li>
+							</ul>
+							<hr />
+							<div className='text-3xl flex space-x-5 xl:justify-start justify-center pt-4'>
 								<div className='has-tooltip'>
 									<span className='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
 										Instagram
