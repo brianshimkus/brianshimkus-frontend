@@ -14,6 +14,7 @@ import {
 	faLaptopCode,
 	faLightbulb,
 	faList,
+	faFish,
 } from '@fortawesome/free-solid-svg-icons'
 import Layout from '../components/Layout'
 
@@ -49,7 +50,7 @@ export default function Home() {
 								<li className='pb-2'>
 									<FontAwesomeIcon
 										icon={faBrain}
-										alt='Light Bulb'
+										alt='Brain'
 										className='text-red-200'
 									/>
 									<span className='md:pl-3 pl-2'>Mental Health Advocate</span>
@@ -57,15 +58,23 @@ export default function Home() {
 								<li className='pb-2'>
 									<FontAwesomeIcon
 										icon={faGuitar}
-										alt='Light Bulb'
+										alt='Guitar'
 										className='text-yellow-500'
 									/>
 									<span className='md:pl-4 pl-2'>Musician</span>
 								</li>
 								<li className='pb-2'>
 									<FontAwesomeIcon
+										icon={faFish}
+										alt='Fish'
+										className='text-green-400'
+									/>
+									<span className='md:pl-3 pl-2'>Reef Tank Enthusiast</span>
+								</li>
+								<li className='pb-2'>
+									<FontAwesomeIcon
 										icon={faLaptopCode}
-										alt='Light Bulb'
+										alt='Laptop'
 										className='text-gray-200'
 									/>
 									<span className='md:pl-3 pl-2'>Software Engineer</span>
