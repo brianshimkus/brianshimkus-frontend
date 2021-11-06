@@ -6,6 +6,7 @@ import {
 	faGithub,
 	faInstagram,
 	faLinkedinIn,
+	faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import {
 	faBrain,
@@ -92,6 +93,20 @@ export default function Home() {
 												icon={faInstagram}
 												className='hover:text-green-300 transition'
 												alt='Instagram'
+											/>
+										</a>
+									</Link>
+								</div>
+								<div className='has-tooltip'>
+									<span className='tooltip rounded p-1 bg-green-300 text-gray-700 mt-12 transition text-base'>
+										Twitter
+									</span>
+									<Link href='https://www.twitter.com/brianshimkus'>
+										<a target='_blank'>
+											<FontAwesomeIcon
+												icon={faTwitter}
+												className='hover:text-green-300 transition'
+												alt='Twitter'
 											/>
 										</a>
 									</Link>
