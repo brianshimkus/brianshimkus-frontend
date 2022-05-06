@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
+import Header from './Header'
 
 export default function Layout({ title, keywords, description, children }) {
-	const router = useRouter()
 	return (
 		<div>
 			<Head>
@@ -14,7 +13,10 @@ export default function Layout({ title, keywords, description, children }) {
 					rel='stylesheet'
 				/>
 			</Head>
-			<div>{children}</div>
+			<div>
+				<Header />
+				{children}
+			</div>
 		</div>
 	)
 }
