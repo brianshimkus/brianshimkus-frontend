@@ -57,6 +57,10 @@ export default function Home() {
 									<span className='md:pl-3 pl-2'>Mental Health Advocate</span>
 								</li>
 								<li className='pb-2'>
+									🥋
+									<span className='md:pl-4 pl-2'>Mixed Martial Artist</span>
+								</li>
+								<li className='pb-2'>
 									<FontAwesomeIcon
 										icon={faGuitar}
 										alt='Guitar'
