@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from './Footer'
 import Header from './Header'
 
 export default function Layout({ title, keywords, description, children }) {
@@ -13,9 +14,12 @@ export default function Layout({ title, keywords, description, children }) {
 					rel='stylesheet'
 				/>
 			</Head>
-			<div className='bg-neutral-900 min-h-screen p-8 font-primary text-gray-400 tracking-wide'>
-				<Header />
-				<div className='max-w-screen-2xl mx-auto my-12'>{children}</div>
+			<div className='bg-neutral-900 min-h-screen font-primary text-gray-400 tracking-wide'>
+				<div className='mx-auto'>
+					<Header />
+					<div className='max-w-screen-2xl mx-auto px-8'>{children}</div>
+					<Footer />
+				</div>
 			</div>
 		</div>
 	)
